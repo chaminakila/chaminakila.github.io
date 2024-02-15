@@ -844,7 +844,11 @@ section {
   padding: 30px;
   background: #fff;
   box-shadow: 0 0 24px 0 rgba(0, 0, 0, 0.12);
-  width: 200%;
+  width: 100%;
+position: absolute;
+align-items:center;
+  width: 50%;
+  height: 100%;
 }
 
 .contact .info i {
