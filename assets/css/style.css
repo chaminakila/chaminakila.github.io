@@ -32,7 +32,25 @@ h5,
 h6 {
   font-family: "Raleway", sans-serif;
 }
-
+  table {
+    border-collapse: collapse;
+  }
+  td {
+    padding: 4px 10px; /* Adjust the space around content */
+    font-size: 14px; /* Adjust font size as needed */
+    vertical-align: center; /* Aligns the content to the top of the cell */
+  }
+  .label1 {
+    text-align: left; /* Aligns the label1 text to the left */
+    font-weight: bold;
+  }
+  .colon {
+    padding: 0 6px 0 0; /* Space after the colon */
+    text-align: right; /* Aligns the colon to the right of its cell */
+  }
+  .label2 {
+    padding-left: 6px; /* Space before the label2 text */
+  }
 /*--------------------------------------------------------------
 # Back to top button
 --------------------------------------------------------------*/
@@ -844,7 +862,10 @@ section {
   padding: 30px;
   background: #fff;
   box-shadow: 0 0 24px 0 rgba(0, 0, 0, 0.12);
-  width: 200%;
+  width: 100%;
+position: absolute;
+  width: 50%;
+  height: 100%;
 }
 
 .contact .info i {
